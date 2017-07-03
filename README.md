@@ -198,6 +198,7 @@ Examples
 Troubleshooting
 ---------------
 
+
 | Problem | Probable Cause | Possible Solution |
 |---------|----------------|-------------------|
 | Some required files are missing / Some Enforcer rules have failed | Client adapter config is missing | Add client adapter installation file to `config` directory as specified in quickstart README.md |
