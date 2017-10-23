@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.keycloak.quickstarts</groupId>
-        <artifactId>keycloak-quickstart-parent</artifactId>
+        <groupId>com.redhat.rh-sso</groupId>
+        <artifactId>rh-sso-quickstart-parent</artifactId>
         <version>3.4.0.CR1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -87,7 +87,7 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>keycloak-adapter-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

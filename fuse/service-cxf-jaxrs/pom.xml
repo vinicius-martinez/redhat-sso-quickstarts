@@ -17,18 +17,18 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>keycloak-fuse-parent</artifactId>
-        <groupId>org.keycloak.quickstarts</groupId>
-        <version>3.4.0.CR1-SNAPSHOT</version>
+        <artifactId>rh-sso-fuse-parent</artifactId>
+        <groupId>com.redhat.rh-sso</groupId>
+        <version>7.2.0.DR4</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>keycloak-service-cxf-jaxrs</artifactId>
-    <version>3.4.0.CR1-SNAPSHOT</version>
+    <artifactId>rh-sso-service-cxf-jaxrs</artifactId>
+    <version>7.2.0.DR4</version>
     <packaging>bundle</packaging>
-    <name>Keycloak Quickstart: JBoss Fuse Service - CXF JAXRS</name>
+    <name>Red Hat SSO Quickstart: JBoss Fuse Service - CXF JAXRS</name>
     <description>JBoss Fuse Apache CXF JAXRS Service Secured by Keycloak</description>
 
     <licenses>

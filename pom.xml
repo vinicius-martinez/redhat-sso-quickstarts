@@ -19,11 +19,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.keycloak.quickstarts</groupId>
-    <artifactId>keycloak-quickstart-parent</artifactId>
-    <version>3.4.0.CR1-SNAPSHOT</version>
+    <groupId>com.redhat.rh-sso</groupId>
+    <artifactId>rh-sso-quickstart-parent</artifactId>
+    <version>7.2.0.DR4</version>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: parent</name>
+    <name>Red Hat SSO Quickstart: parent</name>
     <description>Parent</description>
 
     <licenses>
@@ -74,7 +74,7 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>keycloak-adapter-bom</artifactId>
                 <version>${version.keycloak}</version>
                 <type>pom</type>
@@ -87,7 +87,7 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>keycloak-spi-bom</artifactId>
                 <version>${version.keycloak}</version>
                 <type>pom</type>
@@ -385,4 +385,16 @@
             </dependencies>
         </profile>
     </profiles>
+    <repositories>
+        <repository>
+            <id>jboss-enterprise-maven-repository</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
